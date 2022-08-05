@@ -1,0 +1,96 @@
+
+/*Table layout Design */
+table, tr, th, td{
+      padding: 20px; /*Space between content an border */
+      width: auto; /*width  */
+      border: 2px solid; /*border will be solid colour */
+      float: inherit;/*floating properties of parent */
+      font-size: 15px; /*font size */
+      margin: auto; /*auto value on the horizontal on the container */
+}
+/* header size */
+h1{
+  text-align: center; /* text will be center */
+  text-transform: uppercase; /* text will be uppercase */
+  text-decoration: underline; /* text will be underlined */
+  color: #FEE2C5;
+
+}
+
+h3{
+    text-align: center;
+    font-style: bold;
+}
+p{
+  text-align: center;
+  font-size: 35px;
+  color: pink;
+}
+/* Id class with # */
+/* Reg pages */
+#formPage{
+  background-color: #7FB5FF;
+}
+#formRegister{
+  font-size: 30px;
+  text-align: center;
+  padding: inherit;
+  float: center;
+  border: 2px solid;
+  color: white;
+}
+
+/* all classes none id's which use # */
+
+/* comment box */
+.CommentBox{
+      display: inline-inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      background-color: #FEE2C5;
+
+}
+/* skills design */
+.Skills{
+      background-color: #C4DDFF;
+}
+ /*to remove the bullet points from the list */
+.noBullets{
+      /* defines the lists marker- this means none will show */
+      list-style-type: none;
+      text-align: left;
+}
+/* SideBar design */
+.SideBar{
+    float: left;
+    font-size: 25px;
+    background-color: #7FB5FF;
+}
+/* Course design */
+.Course{
+  background-color: #C4DDFF;
+
+}
+/* Register design */
+.Register{
+  background-color: #001D6E;
+  /* remove the line under the text  */
+  text-decoration: none;
+  color: white;
+}
+/* Login design */
+.Login{
+    background-color: #001D6E;
+    color: white;
+}
+/* Profile design */
+.Profile{
+    background-color: #001D6E;
+    color: white;
+}
+/* Avatar design */
+.Avatar{
+    background-color: #001D6E;
+    text-align: center;
+}

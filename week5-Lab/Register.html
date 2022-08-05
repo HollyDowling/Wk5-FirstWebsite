@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <!-- external Css -->
+      <link rel="stylesheet" href="css/style.css">
+    <!-- <a href="index.html">About Page</a> -->
+  </head>
+  <body id="formPage">
+    <h1> Register Page</h1>
+    <!-- anchor tag to send you back to home page -->
+    <a href="index.html">About Page</a>
+    <!-- paragraph of text -->
+    <p>
+      Welcome to the Registion Page, <br>
+      please fill in the details below and you
+      login back in on our home page.
+    </p>
+    <!-- form -->
+    <form id="formRegister" action="index.html" method="post">
+
+          <label>Contact Details</label>
+                      <label>First Name</label>
+                      <input type="text" name="firstName" value=""> <!-- input box -->
+                      <br>
+                      <label>Second Name</label>
+                      <input type="text" name="secondName" value=""> <!-- input box -->
+                  <br>
+          <label>Address Details</label><br>
+                      <label>First Line</label>
+                      <input type="text" name="FirstAddressLine" value=""><br> <!-- input box with break-->
+                      <label>Second Line</label>
+                      <input type="text" name="SecondAddressLine" value=""><br> <!-- input box with break-->
+                      <label>Third Line</label>
+                      <input type="text" name="ThirdAddressLine" value=""><br> <!-- input box with break-->
+                      <label>County:</label>
+                      <!-- drop down box-->
+                        <select name="Country">
+                          <option>Ireland</option>
+                          <option>Europe</option>
+                          <option>Asia</option>
+                          <option>America</option>
+                          <option>Uk</option>
+                        </select>
+                    <br>
+          <label>Course Number</label>
+                  <input type="text" name="contactNo" value=""> <!-- input box -->
+      <!-- form closed-->
+    </form>
+
+  </body>
+</html>

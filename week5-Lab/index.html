@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Required links for Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- External style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Portfolio </title>
+  </head>
+  <body>
+
+        <div class="container-fluid">   <!--Container -->
+            <!-- Row 1 -->
+            <div class="row">
+                      <!-- Row 1 column 1   -->
+                      <div class="col-sm-4 Avatar">
+                        <!-- Profile Avatar Image -->
+                            <img src="image/AvatarMaker.png" alt="MyAvatar">
+                        <!-- column 1 closed  -->
+                      </div>
+                        <!-- Row 1 column 2   -->
+                      <div class="col-sm-4 Profile">
+
+                        <h3>Profile Details</h3>
+                          <!-- Table with Header/Table Cell/rows for profile details  -->
+                              <tr> <!-- Table row -->
+                                    <th>Name</th>  <!-- Table header  -->
+                                            <td>Holly Dowling</td><br> <!-- Table Cell with break  -->
+                                    <th>Email</th>  <!-- Table header  -->
+                                            <td>x21150117@student.ncirl.ie</td><br> <!-- Table Cell with break  -->
+                                    <th>College Course</th>  <!-- Table header  -->
+                                            <td>BSHCE1</td> <!-- Table Cell with break  -->
+                              </tr> <!-- Table row -->
+
+                            <!-- column 2 closed  -->
+                      </div>
+                      <div class="col-sm-4 Login"> <!-- Row 1 column 3   -->
+                        <!-- form for login in or Register details, wont post to anywhere at present -->
+                          <form class="form" action="index.html" method="post">
+
+                                <h3>Login</h3>
+                                  <label>Email/Username</label>
+                                        <!-- box for user to input email/username -->
+                                        <input type="text" name="firstName" value="">
+                                  <br>
+                                  <label>Password</label>
+                                        <!-- box for password to be entered -->
+                                        <input type="text" name="secondName" value="">
+                                  <br>
+                                        <!--submit input -->
+                                  <input type="submit" name="submit" value="submit">
+                                        <!--  reset the form -->
+                                  <input type="reset" name="reset" value="reset">
+                                          <!-- Button to register account with anchor key to connect to further register -->
+                                  <!-- <button  type="Register"   name="button">Register</button> -->
+                                  <a href="Register.html" class="Register" role="button"> Register </a>
+                          <!-- closed form -->
+                          </form>
+                      </div>   <!-- column 3 closed  -->
+
+
+            </div>   <!-- Row 1 closed -->
+
+
+            <div class="row">   <!-- Row 2 -->
+                      <div class="col-sm-4 SideBar">   <!-- Row 2 column 1   -->
+                              <ul class="noBullets" > <!--unoreder list    -->
+                                      <li><a href="#">About</a></li> <!--anchor tag that would like to about page but doesnt at present   -->
+                                      <li> <a href="http://courses.ncirl.ie/index.cfm/page/course/coursecode/BSHC">Course Details</a></li>  <!--anchor tag links to NCIRL course details  -->
+                                      <li><a href="#">Results</a></li> <!--anchor tag that would like to Results page but doesnt at present   -->
+                                      <li><a href="#">Contact Details</a></li> <!--anchor tag that would like to Details page but doesnt at present   -->
+
+                              </ul> <!--unoreder list  closed   -->
+
+                      </div>  <!-- column 1 closed   -->
+                      <div class="col-sm-4 Course">  <!-- Row 2 column 2   -->
+                              <h3>Year 1 BSHCE1 Term 3 </h3>
+
+                                      <table>   <!-- TABLE -->
+                                              <tr> <!-- Table row  -->
+                                                    <th>Term 3</th> <!-- Table header  -->
+                                                    <th>Details</th> <!-- Table header  -->
+                                                    <th>Credits Needed</th> <!-- Table header  -->
+                                              </tr>  <br> <!-- Table row closed with break -->
+                                              <tr> <!-- Table row  -->
+                                                    <td>Web Design</td>  <!-- Table cell  -->
+                                                    <td>May - August </td> <!-- Table cell  -->
+                                                    <td> 10</td> <!-- Table cell  -->
+                                              </tr>  <br> <!-- Table row closed with break -->
+                                              <tr>  <!-- Table row  -->
+                                                    <td>Digital Design</td> <!-- Table cell  -->
+                                                    <td>May - August</td> <!-- Table cell  -->
+                                                    <td> 5</td> <!-- Table cell  -->
+                                              </tr>  <br> <!-- Table row closed with break -->
+                                              <tr>  <!-- Table row  -->
+                                                      <td>Computer Industry</td> <!-- Table cell  -->
+                                                      <td>May-August</td> <!-- Table cell  -->
+                                                      <td>5</td><!-- Table cell  -->
+                                              </tr>
+                                      </table>   <!-- TABLE closed -->
+                      </div> <!-- column 2 closed   -->
+                      <div class="col-sm-4 Skills" > <!-- Row 2 column 3   -->
+
+                              <h3>Skills Required</h3>
+                              <h4>Web Design</h4>
+
+                                  <ul > <!--unoreder list    -->
+                                        <li> HTML</li> <!-- list item   -->
+                                        <li>CSS</li> <!-- list item   -->
+                                        <li>Git Bash</li> <!-- list item   -->
+                                        <li>Programming</li> <!-- list item   -->
+                                  </ul> <!--unoreder list   closed  -->
+                                  <br>
+                              <h4>Digital Design</h4>
+                                  <ul> <!--unoreder list    -->
+                                        <li>Photoshop</li> <!-- list item   -->
+                                        <li>Animate</li> <!-- list item   -->
+                                        <li>Advertisment</li> <!-- list item   -->
+                                  </ul> <!--unoreder list   closed  -->
+                                  <br>
+                              <h4>Computer Industry</h4>
+                                  <ul> <!--unoreder list    -->
+                                        <li>CV/Cover Letter</li> <!-- list item   -->
+                                        <li>Report Writting</li> <!-- list item   -->
+                                        <li>Creating Profiles</li> <!-- list item   -->
+                                </ul> <!--unoreder list   closed  -->
+
+                    </div> <!--  column 3 closed   -->
+
+            </div>  <!-- Row 2 Closed -->
+            <div class="row"> <!-- Row 3 -->
+                    <div class="col-sm-12"> <!--  Row 3 column 1  -->
+                              <form class="CommentBox" action="index.html" method="post">
+                                  <label>Comment</label>
+                                  <br>
+                                  <!--coment box rows is height and col is the width of the box -->
+                                  <!-- Will show the message below in the box -->
+                                  <textarea name="Comments" rows="4" cols="50">
+                            Please leave a comment...
+                                  </textarea> <br>
+                                  <!-- will submit and reset the comment box -->
+                                  <input type="submit" name="submit" value="submit">
+                                  <input type="reset" name="reset" value="reset">
+                              </form>
+                    </div> <!--  column 1 closed   -->
+
+            </div> <!-- Row 3 Closed -->
+
+      </div> <!--Container closed -->
+
+  </body>
+</html>
